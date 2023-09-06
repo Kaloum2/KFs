@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-06T09:49:57.465Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="RBL5PoEaua9cWq91vilU" version="21.7.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-06T09:52:51.115Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="yMPETbrE11Yq08ITqW2l" version="21.7.2" type="github" pages="4">
   <diagram name="Page-1" id="L68cCSnjKjVKMLjNh44Q">
     <mxGraphModel dx="866" dy="1117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -232,10 +232,16 @@
         <mxCell id="0YEujWDky_I_Rr6BNX5G-33" value="Accelero" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0YEujWDky_I_Rr6BNX5G-34">
           <mxGeometry x="44" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0YEujWDky_I_Rr6BNX5G-35" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0YEujWDky_I_Rr6BNX5G-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0YEujWDky_I_Rr6BNX5G-35" target="0YEujWDky_I_Rr6BNX5G-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0YEujWDky_I_Rr6BNX5G-35" value="Filtre de l&#39;INS" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="750" width="150" height="125" as="geometry">
             <mxRectangle x="510" y="750" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0YEujWDky_I_Rr6BNX5G-45" value="Integration&amp;nbsp;&lt;br&gt;&lt;br&gt;Compensation&lt;br&gt;&lt;br&gt;Mécanisation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0YEujWDky_I_Rr6BNX5G-35">
+          <mxGeometry x="15" y="32.5" width="120" height="82.5" as="geometry" />
         </mxCell>
         <mxCell id="0YEujWDky_I_Rr6BNX5G-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0YEujWDky_I_Rr6BNX5G-37" target="0YEujWDky_I_Rr6BNX5G-35">
           <mxGeometry relative="1" as="geometry" />
@@ -248,6 +254,15 @@
         </mxCell>
         <mxCell id="0YEujWDky_I_Rr6BNX5G-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="0YEujWDky_I_Rr6BNX5G-33" target="0YEujWDky_I_Rr6BNX5G-35">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0YEujWDky_I_Rr6BNX5G-43" value="Position, vitesse et attitude actuelles" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="755" y="782.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0YEujWDky_I_Rr6BNX5G-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0YEujWDky_I_Rr6BNX5G-46" target="0YEujWDky_I_Rr6BNX5G-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0YEujWDky_I_Rr6BNX5G-46" value="Biais et facteurs d&#39;échelle estimés" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="917.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
