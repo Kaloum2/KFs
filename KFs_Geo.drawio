@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-06T09:43:25.782Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="oAh2ufVubxeRyRoIi1KO" version="21.7.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-06T09:49:57.465Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="RBL5PoEaua9cWq91vilU" version="21.7.2" type="github" pages="4">
   <diagram name="Page-1" id="L68cCSnjKjVKMLjNh44Q">
     <mxGraphModel dx="866" dy="1117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -195,7 +195,7 @@
         <mxCell id="0YEujWDky_I_Rr6BNX5G-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0YEujWDky_I_Rr6BNX5G-8" target="0YEujWDky_I_Rr6BNX5G-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0YEujWDky_I_Rr6BNX5G-8" value="Accélération gravitationnelle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0YEujWDky_I_Rr6BNX5G-8" value="Calcul de l&#39;accélération gravitationnelle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0YEujWDky_I_Rr6BNX5G-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0YEujWDky_I_Rr6BNX5G-17" target="0YEujWDky_I_Rr6BNX5G-20">
@@ -212,14 +212,42 @@
         <mxCell id="0YEujWDky_I_Rr6BNX5G-20" value="Compensation&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="220" width="120" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="0YEujWDky_I_Rr6BNX5G-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0YEujWDky_I_Rr6BNX5G-25" target="0YEujWDky_I_Rr6BNX5G-19">
+        <mxCell id="0YEujWDky_I_Rr6BNX5G-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0YEujWDky_I_Rr6BNX5G-25" target="0YEujWDky_I_Rr6BNX5G-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0YEujWDky_I_Rr6BNX5G-25" value="Position, vitesse et attitude estimées" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="525" width="120" height="60" as="geometry" />
+          <mxGeometry x="595" y="525" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0YEujWDky_I_Rr6BNX5G-28" value="Position, vitesse et attitude actuelles" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="910" y="255" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0YEujWDky_I_Rr6BNX5G-34" value="IMU" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="707.5" width="200" height="210" as="geometry">
+            <mxRectangle x="200" y="720" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0YEujWDky_I_Rr6BNX5G-32" value="Gyro" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0YEujWDky_I_Rr6BNX5G-34">
+          <mxGeometry x="44" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0YEujWDky_I_Rr6BNX5G-33" value="Accelero" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0YEujWDky_I_Rr6BNX5G-34">
+          <mxGeometry x="44" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0YEujWDky_I_Rr6BNX5G-35" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="750" width="150" height="125" as="geometry">
+            <mxRectangle x="510" y="750" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0YEujWDky_I_Rr6BNX5G-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0YEujWDky_I_Rr6BNX5G-37" target="0YEujWDky_I_Rr6BNX5G-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0YEujWDky_I_Rr6BNX5G-37" value="Position, vitesse et attitude estimées" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0YEujWDky_I_Rr6BNX5G-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0YEujWDky_I_Rr6BNX5G-32" target="0YEujWDky_I_Rr6BNX5G-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0YEujWDky_I_Rr6BNX5G-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="0YEujWDky_I_Rr6BNX5G-33" target="0YEujWDky_I_Rr6BNX5G-35">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
