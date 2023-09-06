@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-06T09:33:12.254Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="fDvmgIFWEXXQvq1O1cxZ" version="21.7.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-06T09:34:36.261Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="qACtNZ5l5HLheNP5fTSL" version="21.7.2" type="github" pages="4">
   <diagram name="Page-1" id="L68cCSnjKjVKMLjNh44Q">
     <mxGraphModel dx="866" dy="1117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -200,7 +200,7 @@
             <mxPoint x="400" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0YEujWDky_I_Rr6BNX5G-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0YEujWDky_I_Rr6BNX5G-17" value="Biais et facteurs d&#39;échelle estimés" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0YEujWDky_I_Rr6BNX5G-19" value="Mécanisation" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
