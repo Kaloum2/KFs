@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-07T07:42:12.940Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="bBc6zgjpyeOVMRR1z03Y" version="21.7.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-07T07:44:25.891Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="0-Z0-W0H7uzj03DXfB5a" version="21.7.2" type="github" pages="4">
   <diagram name="Page-1" id="L68cCSnjKjVKMLjNh44Q">
     <mxGraphModel dx="866" dy="1117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -220,7 +220,7 @@
         <mxCell id="0YEujWDky_I_Rr6BNX5G-25" value="Position, vitesse et attitude estimées" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="595" y="525" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0YEujWDky_I_Rr6BNX5G-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0YEujWDky_I_Rr6BNX5G-28" target="0YEujWDky_I_Rr6BNX5G-20">
+        <mxCell id="0YEujWDky_I_Rr6BNX5G-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="0YEujWDky_I_Rr6BNX5G-28" target="0YEujWDky_I_Rr6BNX5G-20">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="970" y="490" />
