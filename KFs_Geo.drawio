@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T08:38:40.815Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="1rP-fDvLSbUsa_BBz1ae" version="21.7.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-09-12T08:42:28.930Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="hUCjvc0-3tslgYtE7LDH" version="21.7.2" type="github" pages="5">
   <diagram name="Page-1" id="L68cCSnjKjVKMLjNh44Q">
     <mxGraphModel dx="1086" dy="816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,8 +10,10 @@
         <mxCell id="de9RZLJ61hsH93KTD_V5-1" value="IMU" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="209" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="de9RZLJ61hsH93KTD_V5-14" value="PVT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;" parent="1" source="de9RZLJ61hsH93KTD_V5-2" target="750SmPPcuLGFilydaZxY-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="de9RZLJ61hsH93KTD_V5-14" value="Position&lt;br&gt;Vitesse" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;" parent="1" source="de9RZLJ61hsH93KTD_V5-2" target="750SmPPcuLGFilydaZxY-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="de9RZLJ61hsH93KTD_V5-2" value="GNSS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="210" y="245" width="120" height="60" as="geometry" />
@@ -33,7 +35,7 @@
             <mxPoint x="680" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="de9RZLJ61hsH93KTD_V5-18" value="Position&lt;br style=&quot;font-size: 15px;&quot;&gt;Vitesse&lt;br style=&quot;font-size: 15px;&quot;&gt;Attitude" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;" parent="1" source="de9RZLJ61hsH93KTD_V5-5" edge="1">
+        <mxCell id="de9RZLJ61hsH93KTD_V5-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=15;" parent="1" source="de9RZLJ61hsH93KTD_V5-5" edge="1" target="750SmPPcuLGFilydaZxY-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="850" y="275" as="targetPoint" />
           </mxGeometry>
@@ -56,13 +58,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="de9RZLJ61hsH93KTD_V5-6" value="Velocity constraints&lt;br style=&quot;font-size: 15px;&quot;&gt;Height constraints" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="475" y="350" width="120" height="60" as="geometry" />
+          <mxGeometry x="452.5" y="350" width="165" height="100" as="geometry" />
         </mxCell>
         <mxCell id="750SmPPcuLGFilydaZxY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="750SmPPcuLGFilydaZxY-2" target="de9RZLJ61hsH93KTD_V5-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="750SmPPcuLGFilydaZxY-2" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.or;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="510" y="250" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="750SmPPcuLGFilydaZxY-4" value="&lt;span style=&quot;font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;(PVA) Position,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;Vitesse&lt;br&gt;&amp;nbsp;et&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;Attitude&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="380" width="180" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
