@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T08:44:13.609Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="m8mYTT8xinWK8oMwm9qc" version="21.7.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-09-12T08:46:11.253Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="X0onFWD09hLMcic90qjX" version="21.7.2" type="github" pages="5">
   <diagram name="Page-1" id="L68cCSnjKjVKMLjNh44Q">
     <mxGraphModel dx="1086" dy="816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,7 +18,7 @@
         <mxCell id="de9RZLJ61hsH93KTD_V5-2" value="GNSS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="210" y="245" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="de9RZLJ61hsH93KTD_V5-11" value="biais, scale factor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" parent="1" source="de9RZLJ61hsH93KTD_V5-3" target="de9RZLJ61hsH93KTD_V5-4" edge="1">
+        <mxCell id="de9RZLJ61hsH93KTD_V5-11" value="biais, facteur d&#39;échelle" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" parent="1" source="de9RZLJ61hsH93KTD_V5-3" target="de9RZLJ61hsH93KTD_V5-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="de9RZLJ61hsH93KTD_V5-3" value="Erreurs estimées" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
@@ -56,7 +56,7 @@
         <mxCell id="de9RZLJ61hsH93KTD_V5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;" parent="1" source="de9RZLJ61hsH93KTD_V5-6" target="750SmPPcuLGFilydaZxY-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="de9RZLJ61hsH93KTD_V5-6" value="Velocity constraints&lt;br style=&quot;font-size: 15px;&quot;&gt;Height constraints" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="de9RZLJ61hsH93KTD_V5-6" value="Contraintes de vitesse et de hauteur&lt;br&gt;ZARU, ZUPT&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="452.5" y="350" width="165" height="100" as="geometry" />
         </mxCell>
         <mxCell id="750SmPPcuLGFilydaZxY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="750SmPPcuLGFilydaZxY-2" target="de9RZLJ61hsH93KTD_V5-5">
