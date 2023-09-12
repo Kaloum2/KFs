@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T08:42:28.930Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="hUCjvc0-3tslgYtE7LDH" version="21.7.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-09-12T08:44:13.609Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="m8mYTT8xinWK8oMwm9qc" version="21.7.2" type="github" pages="5">
   <diagram name="Page-1" id="L68cCSnjKjVKMLjNh44Q">
     <mxGraphModel dx="1086" dy="816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,14 +40,13 @@
             <mxPoint x="850" y="275" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="de9RZLJ61hsH93KTD_V5-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+        <mxCell id="de9RZLJ61hsH93KTD_V5-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="750SmPPcuLGFilydaZxY-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="820" y="275" />
-              <mxPoint x="820" y="60" />
+              <mxPoint x="850" y="60" />
               <mxPoint x="430" y="60" />
             </Array>
-            <mxPoint x="750" y="275" as="sourcePoint" />
+            <mxPoint x="910" y="150" as="sourcePoint" />
             <mxPoint x="430" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -66,8 +65,13 @@
         <mxCell id="750SmPPcuLGFilydaZxY-2" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.or;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="510" y="250" width="50" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="750SmPPcuLGFilydaZxY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="750SmPPcuLGFilydaZxY-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="750SmPPcuLGFilydaZxY-4" value="&lt;span style=&quot;font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;(PVA) Position,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;Vitesse&lt;br&gt;&amp;nbsp;et&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 15px; background-color: rgb(255, 255, 255);&quot;&gt;Attitude&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="380" width="180" height="70" as="geometry" />
+          <mxGeometry x="780" y="240" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
