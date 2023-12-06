@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-31T15:16:26.741Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="kpliqE2f1ENfqo7mV3F2" version="22.0.8" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-12-06T14:19:16.772Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="2fzYoUSa3eD_NGTmH0Zq" version="22.1.6" type="github" pages="7">
   <diagram name="Contraintes" id="L68cCSnjKjVKMLjNh44Q">
     <mxGraphModel dx="1687" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -162,7 +162,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NtR9nzrZXvQ3NWQs7sdp" name="Mechanization">
-    <mxGraphModel dx="2607" dy="1440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -478,6 +478,56 @@
         </mxCell>
         <mxCell id="FeE82GVfNEKP7X9_tNkD-11" value="Add GNSS data to hybridation object" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="380" y="230" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2HiAmNWJ6fsc3lg2wq-1" name="GNSS_ODO">
+    <mxGraphModel dx="1434" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GqAOvuNLZaxj021s8RrN-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GqAOvuNLZaxj021s8RrN-1" target="GqAOvuNLZaxj021s8RrN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GqAOvuNLZaxj021s8RrN-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GqAOvuNLZaxj021s8RrN-1" target="GqAOvuNLZaxj021s8RrN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GqAOvuNLZaxj021s8RrN-1" value="WSS&lt;br&gt;Rear speed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GqAOvuNLZaxj021s8RrN-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="580" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="GqAOvuNLZaxj021s8RrN-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GqAOvuNLZaxj021s8RrN-3" target="GqAOvuNLZaxj021s8RrN-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GqAOvuNLZaxj021s8RrN-3" value="Vehicle velocity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="60" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GqAOvuNLZaxj021s8RrN-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GqAOvuNLZaxj021s8RrN-4" target="GqAOvuNLZaxj021s8RrN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GqAOvuNLZaxj021s8RrN-4" value="Yaw rate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GqAOvuNLZaxj021s8RrN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GqAOvuNLZaxj021s8RrN-5" target="GqAOvuNLZaxj021s8RrN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GqAOvuNLZaxj021s8RrN-5" value="Velocity in body frame" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="60" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GqAOvuNLZaxj021s8RrN-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GqAOvuNLZaxj021s8RrN-6" target="GqAOvuNLZaxj021s8RrN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GqAOvuNLZaxj021s8RrN-6" value="Yaw" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GqAOvuNLZaxj021s8RrN-7" value="Velocity in n-frame&lt;br&gt;V(ne)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="155" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GqAOvuNLZaxj021s8RrN-8" value="Position&lt;br&gt;(Lat, Lon)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="80" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
