@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T14:43:00.115Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="bfU-sY8Y3q5_ECDMnyhu" version="22.1.11" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-20T15:04:28.498Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="yhynE36MdLazkyrnhVV6" version="22.1.11" type="github" pages="7">
   <diagram name="Contraintes" id="L68cCSnjKjVKMLjNh44Q">
     <mxGraphModel dx="1687" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -544,7 +544,7 @@
         <mxCell id="904gZ0LE-pzuYjHbV4d_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GqAOvuNLZaxj021s8RrN-22" target="GqAOvuNLZaxj021s8RrN-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GqAOvuNLZaxj021s8RrN-22" value="GNSS&lt;br&gt;(Lat, Lon, h, Vne)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="GqAOvuNLZaxj021s8RrN-22" value="GNSS&lt;br&gt;(Lat, Lon, h, Vned)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="340" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sxs9wrQkveR2VWnbbNZt-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GqAOvuNLZaxj021s8RrN-24" target="GqAOvuNLZaxj021s8RrN-28" edge="1">
@@ -581,6 +581,12 @@
             <mxPoint x="261" y="215" as="sourcePoint" />
             <mxPoint x="342" y="298" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="904gZ0LE-pzuYjHbV4d_-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="904gZ0LE-pzuYjHbV4d_-47" target="GqAOvuNLZaxj021s8RrN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="904gZ0LE-pzuYjHbV4d_-47" value="Initialization : &lt;br&gt;GNSS (Lat, Lon, h)&lt;br&gt;Yaw" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="-20" width="125" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
