@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T09:56:16.457Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="wOfYrxRJmp6T8tgD6EYg" version="22.1.17" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-01-31T08:38:25.778Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="iDNIGMnTJ6w4fzk_tvDQ" version="22.1.18" type="github" pages="8">
   <diagram name="Contraintes" id="L68cCSnjKjVKMLjNh44Q">
     <mxGraphModel dx="1687" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -162,7 +162,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NtR9nzrZXvQ3NWQs7sdp" name="Mechanization">
-    <mxGraphModel dx="1420" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1872" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -780,6 +780,14 @@
         <mxCell id="zPG-Ax6SJ0Uc4sTVaI9Z-1" value="Position NED, Velocity NE, Yaw (Estimates)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="250" y="287.5" width="130" height="50" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="S_G_UAyn3WXTS4GIdszo" name="Latence_PE">
+    <mxGraphModel dx="1872" dy="822" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
